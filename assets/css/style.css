@@ -1,5 +1,5 @@
 * {
-    background-color: aquamarine;
+    background-color:antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -25,12 +25,33 @@ li {
     padding: 0 20px;
 }
 
+a {
+    text-decoration: none;
+    color: green;
+}
+
 .hero img {
     width: 100%;
     border: 5px solid green;
-    margin-top: 100px;
 }
 
 figcaption {
     font-style: italic;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+input[type=submit] {
+    color: green;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+    line-height: 2;
+}
+
+input[type=text],input[type=email] {
+    background-color: grey;
+    width: 200px;
 }
