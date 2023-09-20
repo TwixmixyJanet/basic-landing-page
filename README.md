@@ -1,2 +1,2 @@
-# basic-landing-page
-UCB Student Mini Project
+# UCB Student Mini Project
+## Basic Landing Page

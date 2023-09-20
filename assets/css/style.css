@@ -1,7 +1,36 @@
 * {
     background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    border-bottom: 5px solid grey;
+}
+
+header h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 ul {
-    
+    list-style-type: none;
+    display: flex;
+    margin: 30px 20px;
+    float: right;
+}
+
+li {
+    padding: 0 20px;
+}
+
+.hero img {
+    width: 100%;
+    border: 5px solid green;
+    margin-top: 100px;
+}
+
+figcaption {
+    font-style: italic;
 }
