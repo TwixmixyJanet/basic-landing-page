@@ -34,6 +34,8 @@ a {
 .hero img {
     width: 100%;
     border: 5px solid green;
+    /* how do I do this without margin? */
+    margin-top: 200px;
 }
 
 figcaption {
